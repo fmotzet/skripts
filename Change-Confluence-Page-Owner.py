@@ -1,3 +1,13 @@
+# Confluence Page Ownership Transfer Tool
+# This script transfers ownership of Confluence Cloud pages from one user to another.
+# It can transfer all pages or limit the transfer to a specific space.
+# Features:
+# - Identifies all pages owned by a specific user
+# - Optional filtering by space
+# - Creates a backup before making changes
+# - Provides detailed logs of the transfer process
+# - Handles pagination for large collections of pages
+
 import requests
 import json
 from urllib.parse import urljoin
