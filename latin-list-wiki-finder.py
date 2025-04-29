@@ -1,3 +1,15 @@
+"""
+Plant Wikipedia Enricher
+
+Reads a CSV file with plant names, retrieves Wikipedia URLs and summaries 
+for each plant in German, and saves the enriched data to a new output file.
+
+Usage:
+1. Ensure input CSV has columns "Lateinischer Name" and "Deutscher Name"
+2. Run the script: python script_name.py
+3. Output will be saved as "Output.csv" with added Wikipedia data
+"""
+
 import pandas as pd
 import wikipedia
 
